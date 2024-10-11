@@ -1,0 +1,19 @@
+.header {
+    padding-left: 167px;
+    padding-right: 167px;
+    height: 80px;
+    border-bottom: 0.5px solid #A8C2BA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}           
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

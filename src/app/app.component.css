@@ -1,0 +1,40 @@
+html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.abosolute {
+    position: fixed;
+    z-index: -1;
+}
+
+.glows {
+    position: fixed;
+    height: 412px;
+    width: 412px;
+    background-color: #4f6b5fbf;
+    filter: blur(150px);
+}
+.lading-image-img {
+    width: 1070px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.landing-image {
+    height: fit-content;
+}
+
+.g-marqee {
+    position: absolute;
+    transform: translateY(350%);
+    z-index: 3;
+}

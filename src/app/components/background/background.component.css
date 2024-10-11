@@ -1,0 +1,26 @@
+.fill {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    background-color: #21433D;
+    background-image: url("../../../../public/images/background_grain.png");
+    background-repeat: repeat;
+}
+
+.line {
+    width: 0.5px;
+    height: 100%;
+    background-color: #A8C2BA;
+    position: absolute;
+    margin-left: 87px;
+}
+
+.right {
+    right: 0;
+    margin-left: 0;
+    margin-right: 87px;
+}

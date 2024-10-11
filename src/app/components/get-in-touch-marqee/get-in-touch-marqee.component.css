@@ -1,0 +1,54 @@
+.marqee {
+    height: 188px;
+    border-top: 0.5px solid #A8C2BA;
+    border-bottom: 0.5px solid #A8C2BA;
+    background-color: #0f0e0e91;
+    backdrop-filter: blur(3px);
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+  @keyframes marquee {
+    0% { left: 100%; }
+    50% { left: -100%; }
+    100% {left: -100%}
+  }
+  
+  
+  /* would need to be adjusted depending on time */
+  .marqee .marqueeone{
+    animation: marquee 50s linear infinite
+  }
+  
+  .marqee .marqueetwo{
+    animation: marquee 50s linear 5s infinite 
+  }
+  
+  .marqee .marqueethree{
+    animation: marquee 50s linear 10s infinite
+  }
+  
+  .marqee .marqueefour{
+    animation: marquee 50s linear 15s infinite
+  }
+
+  .marqee .marqueefive{
+    animation: marquee 50s linear 20s infinite
+  }
+
+  .marqee .marqueesix{
+    animation: marquee 50s linear 25s infinite
+  }
+  
+  /* even out the elements */
+  .marqee div {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
