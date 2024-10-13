@@ -16,11 +16,11 @@
     height: 100%;
     background-color: #A8C2BA;
     position: absolute;
-    margin-left: 87px;
+    margin-left: 7%;
 }
 
 .right {
     right: 0;
     margin-left: 0;
-    margin-right: 87px;
+    margin-right: 7%;
 }

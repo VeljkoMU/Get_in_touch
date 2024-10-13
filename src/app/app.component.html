@@ -2,7 +2,11 @@
 </app-background>
 <div class="glows" style="top: 55px; right: 0;"></div>
 <app-header clas="fill-width"></app-header>
+<div style="height: 1200px;">
 <div class="fill-width landing-image">
     <img class="lading-image-img" src="assets/slika1.png">
     <app-get-in-touch-marqee class="g-marqee"></app-get-in-touch-marqee>
 </div>
+</div>
+<app-presentation-item [imgSrc]="'assets/slika2.png'" [accentTitle]="'WHY SHOULD US'" [title]="'We designed with your lifestyle in mind'" [text]="'Lorem ipsum.'" [statisticItem]="this.statitic" ></app-presentation-item>
+<app-presentation-item [imgSrc]="'assets/slika2.png'" [accentTitle]="'OUR PROCESS'" [title]="'Our approach to project work'" [text]="'Lorem ipsum.'" [statisticItem]="this.statitic" [style]="'flex-direction: row-reverse;'" ></app-presentation-item>

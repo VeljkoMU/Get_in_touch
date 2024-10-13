@@ -1,7 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
 html {
     padding: 0;
     margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    overflow-x: hidden;
 }
 
 body {

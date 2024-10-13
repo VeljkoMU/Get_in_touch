@@ -16,7 +16,7 @@ body {
 }
 
 .glows {
-    position: fixed;
+    position: absolute;
     height: 412px;
     width: 412px;
     background-color: #4f6b5fbf;

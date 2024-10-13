@@ -1,0 +1,22 @@
+<div class="fill-width presentation" [style]="this.flexStyle()">
+    <div class="presentation-text">
+        <div class="accent-title">
+            {{this.accentTitle()}}
+        </div>
+        <div class="title">{{this.title()}}</div>
+        <div class="text">{{this.text()}}</div>
+        <div class="bottom-text"></div>
+        <div class="statistics">
+            @for(item of this.statisticItem(); track item.number) {
+            <div>
+                <p class="number">{{item.number}}</p>
+                <p>{{item.text}}</p>
+            </div>
+        }
+        </div>
+    </div>
+    <div>
+        <img src="{{this.imgSrc()}}">
+    </div>
+
+</div>
