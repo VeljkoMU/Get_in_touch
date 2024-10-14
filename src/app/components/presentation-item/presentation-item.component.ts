@@ -12,7 +12,7 @@ export class PresentationItemComponent {
      accentTitle = input<String | undefined>();
      title = input<String | undefined>();
      text = input<String | undefined>();
-     flexStyle = input<String>();
+     isFlexDIrectionReverse = input<Boolean>();
      imgSrc = input<String>();
      statisticItem = input<Array<StatisticItem>>();
 }

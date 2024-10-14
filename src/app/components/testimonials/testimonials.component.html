@@ -1,0 +1,17 @@
+<div class="fill-width testimonials">
+    <div class="testimonials-text">
+        <div class="header-small">
+            TESTIMONIALS
+        </div>
+        <div class="header">
+            Don’t take our word for it. Take theirs
+        </div>
+
+    </div>
+
+    <div class="testimonials-slide fill-width">
+        <div class="button-arrow rotated" (click)="setMove(true)"> <img src="assets/arrow.png"> </div>
+        <div class="slide"> <app-testimonials-item [text]="currentTestimonial?.text" [name] = "currentTestimonial?.name" [status]="currentTestimonial?.status"></app-testimonials-item> </div>
+        <div class="button-arrow" (click)="setMove()"> <img src="assets/arrow.png"></div>
+    </div>
+</div>
